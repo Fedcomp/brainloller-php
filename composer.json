@@ -1,0 +1,19 @@
+{
+    "name": "fedcomp/brainloller",
+    "description": "class to decode brainloller images",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [{"name": "Fedcomp"}],
+    "require": {
+        "deralex/phprainfuck": "dev-master"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "4.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fedcomp\\": "src/"
+        }
+    }
+}
