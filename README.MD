@@ -13,8 +13,8 @@ add requirement to your composer.json file
 ```
 {
 	"require":{
-        "fedcomp/brainloller"
-    }
+		"fedcomp/brainloller": "0.0.1"
+	}
 }
 ```
 or run from console `composer require fedcomp/brainloller`
