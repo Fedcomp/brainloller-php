@@ -5,11 +5,9 @@
     "prefer-stable": true,
     "license": "MIT",
     "authors": [{"name": "Fedcomp"}],
-    "require": {
-        "deralex/phprainfuck": "dev-master"
-    },
     "require-dev":{
-        "phpunit/phpunit": "4.5.*"
+        "phpunit/phpunit": "4.5.*",
+        "deralex/phprainfuck": "dev-master"
     },
     "autoload": {
         "psr-4": {

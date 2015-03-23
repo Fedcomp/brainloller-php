@@ -58,6 +58,7 @@ class BrainLoller {
 
     /**
      * @param $node string|resource   path to image, stream with picture or GD created context.
+     * @return $this
      */
     public function init($node){
         // Order matters, resource check first
